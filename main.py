@@ -58,13 +58,13 @@ def getAverage(marks):
 def calculateTotalAverage(students):
     assignment = getAverage(students["assignment"])
     test = getAverage(students["test"])
-    lab = getAverage(students["class"])
+    classmark = getAverage(students["class"])
 
     # Return the result based
     # on weightage supplied
     # 10 % from assignments
     # 70 % from test
-    # 20 % from lab-works
+    # 20 % from classworks
 
 
     weightedMark = 0
