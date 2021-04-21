@@ -73,6 +73,12 @@ def calculateTotalAverage(students):
 
 # Calculate letter grade of each student
 def assignLetterGrade(score):
+        '''
+        1. score >= 90 : "A"
+        2. score >= 80 : "B"
+        3. score >= 70 : "C"
+        4. score >= 60 : "D"
+        '''
     return "E"
 
 
